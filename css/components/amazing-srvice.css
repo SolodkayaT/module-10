@@ -61,39 +61,15 @@
         margin-bottom: 0;
     }
     
-    .service__item::before {
+    .service__icon {
         position: absolute;
         display: inline-block;
         content: '';
         width: 33px;
         height: 33px;
-        top: 5px;
+        top: 10px;
         left: 5px;
-    }
-    
-    .service__item--photography::before {
-        background-image: url(../../images/icons/main-section-icons.svg#ALARM);
-        cursor: pointer;
-    }
-    
-    .service__item--design::before {
-        background-image: url(../../images/icons/main-section-icons.svg#LINEGRAPH);
-    }
-    
-    .service__item--creavity::before {
-        background-image: url(../../images/icons/main-section-icons.svg#COMPUTER);
-    }
-    
-    .service__item--seo::before {
-        background-image: url(../../images/icons/main-section-icons.svg#BOOK);
-    }
-    
-    .service__item--html::before {
-        background-image: url(../../images/icons/main-section-icons.svg#HOME);
-    }
-    
-    .service__item--servise::before {
-        background-image: url(../../images/icons/main-section-icons.svg#IMAGE);
+        background-size: contain;
     }
     
     .title-decoration {
@@ -109,6 +85,6 @@
         font-family: 'Roboto', sans-serif;
         font-size: 15px;
         font-weight: 400;
-        color: #999999;
+        color: var(--main-color-description);
         line-height: 25px;
     }
