@@ -1,0 +1,114 @@
+    /*AMAZING SERVISE AND OUR TEAM TITLE*/
+    
+    .section-title {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-family: var(--main-font-family);
+        font-size: 30px;
+        font-weight: 700;
+        color: var(--main-color-titles);
+    }
+    
+    .section-title span {
+        display: block;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    
+    .section-title--underline::after {
+        display: block;
+        width: 61px;
+        height: 4px;
+        background-color: var(--main-color);
+        content: '';
+        margin: 40px auto 60px;
+    }
+    /*AMAZING SERVICE CONTENT*/
+    
+    .service__list {
+        list-style: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: wrap row;
+        flex-flow: wrap row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin-bottom: 85px;
+    }
+    
+    .service__item {
+        position: relative;
+        width: 350px;
+        margin-bottom: 100px;
+    }
+    
+    .service__link {
+        text-decoration: none;
+    }
+    
+    .service__item p,
+    .service__item h3 {
+        padding-left: 55px;
+    }
+    
+    .service__list li:nth-last-child(-n+3) {
+        margin-bottom: 0;
+    }
+    
+    .service__item::before {
+        position: absolute;
+        display: inline-block;
+        content: '';
+        width: 33px;
+        height: 33px;
+        top: 5px;
+        left: 5px;
+    }
+    
+    .service__item--photography::before {
+        background-image: url(../../images/icons/main-section-icons.svg#ALARM);
+        cursor: pointer;
+    }
+    
+    .service__item--design::before {
+        background-image: url(../../images/icons/main-section-icons.svg#LINEGRAPH);
+    }
+    
+    .service__item--creavity::before {
+        background-image: url(../../images/icons/main-section-icons.svg#COMPUTER);
+    }
+    
+    .service__item--seo::before {
+        background-image: url(../../images/icons/main-section-icons.svg#BOOK);
+    }
+    
+    .service__item--html::before {
+        background-image: url(../../images/icons/main-section-icons.svg#HOME);
+    }
+    
+    .service__item--servise::before {
+        background-image: url(../../images/icons/main-section-icons.svg#IMAGE);
+    }
+    
+    .title-decoration {
+        font-family: var(--main-font-family);
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--main-color-titles);
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    
+    .description-decoration {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        color: #999999;
+        line-height: 25px;
+    }

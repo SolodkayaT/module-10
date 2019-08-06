@@ -2,3 +2,6 @@
 @import url('./normalize.css');
 @import url('./vars.css');
 @import url('./components/header.css');
+@import url('./components/amazing-srvice.css');
+@import url('./components/team-section.css');
+@import url('./components/footer.css');
